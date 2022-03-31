@@ -53,3 +53,19 @@
 .coin-input::placeholder {
   color: #e2e2e2;
 }
+
+
+@media screen and (max-width: 500px) {
+
+  .coin-search {
+    
+    margin-bottom: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    caret-color:rgb(255, 0, 0);
+    margin-left: 5px;
+  }
+
+}

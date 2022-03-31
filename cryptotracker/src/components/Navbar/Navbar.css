@@ -1,48 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-.menu-bar{
+
+.menu-bar {
     text-align: center;
     top: 0;
-    background-image: linear-gradient(
-    -225deg,
-    #ac32e4 0%,
-    #7918f2 48%,
-    #4801ff 100%
-  );
-  
-  
+    background-image: linear-gradient(-225deg,
+            #ac32e4 0%,
+            #7918f2 48%,
+            #4801ff 100%);
+
+
 }
 
-.menu-bar ul{
+.menu-bar ul {
     display: inline-flex;
     list-style: none;
     background-color: rgb(252, 252, 252);
-    background-image: linear-gradient(
-    -225deg,
-    #ac32e4 0%,
-    #7918f2 48%,
-    #4801ff 100%
-  );
-  color: red;
-  
-  
-  
-    
+    background-image: linear-gradient(-225deg,
+            #ac32e4 0%,
+            #7918f2 48%,
+            #4801ff 100%);
+    color: red;
+
+
+
+
 }
-.menu-bar ul li{
+
+.menu-bar ul li {
     width: 150px;
     margin: 15px;
     padding: 15px;
     /* 
     Burası..
     */
-    box-shadow:  20px 20px 100px #5a5a5a,
- -20px -20px 100px #ffffff;
+    box-shadow: 20px 20px 100px #5a5a5a,
+        -20px -20px 100px #ffffff;
 }
 
-.menu-bar ul li  a{
+.menu-bar ul li a {
     text-decoration: none;
-    
-    
+
+
 }
 
 /*.active, .menu-bar ul li:hover{
@@ -51,9 +49,102 @@
     color: red;
 }
 */
-.active{
- 
+.active {
+
     font-size: 20px;
 }
 
 
+@media screen  and (max-width: 900px) {
+    .menu-bar {
+        text-align: center;
+        justify-content: center;
+        
+        
+    }
+
+    .menu-bar ul {
+        display: inline-flex;
+        list-style: none;
+        background-color: rgb(252, 252, 252);
+        background-image: linear-gradient(-225deg,
+                #ac32e4 0%,
+                #7918f2 48%,
+                #4801ff 100%);
+        
+
+
+
+
+    }
+
+    .menu-bar ul li {
+        width: 110px;
+        margin: 15px;
+        padding: 15px;
+        /* 
+        Burası..
+        */
+        box-shadow: 20px 20px 100px #5a5a5a,
+            -20px -20px 100px #ffffff;
+    }
+
+    .menu-bar ul li a {
+        text-decoration: none;
+
+
+    }
+
+    .active {
+
+        font-size: 20px;
+    }
+
+}
+@media screen  and (max-width: 350px) {
+
+    .menu-bar {
+        text-align: center;
+        justify-content: center;
+        
+        
+    }
+
+    .menu-bar ul {
+        display: inline-flex;
+        list-style: none;
+        background-color: rgb(252, 252, 252);
+        background-image: linear-gradient(-225deg,
+                #ac32e4 0%,
+                #7918f2 48%,
+                #4801ff 100%);
+        
+
+
+
+
+    }
+
+    .menu-bar ul li {
+        width: 100px;
+        margin: 10px;
+        padding: 15px;
+        /* 
+        Burası..
+        */
+        box-shadow: 20px 20px 100px #5a5a5a,
+            -20px -20px 100px #ffffff;
+    }
+
+    .menu-bar ul li a {
+        text-decoration: none;
+
+
+    }
+
+    .active {
+
+        font-size: 15px;
+    }
+
+}
