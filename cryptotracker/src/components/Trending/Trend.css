@@ -1,0 +1,87 @@
+
+
+.coin-p{
+    display: flex;
+    
+    padding-right: 24px;
+    min-width: 300px;
+    
+}
+
+.price-p{
+    text-align: right;
+    
+    min-width: 300px;
+    
+}
+
+
+
+
+
+.upper{
+    flex-direction: row;
+    color: #4801ff ;
+}
+
+.price{
+    
+    flex-direction: row;
+    margin-left: 16rem;
+
+}
+.Baslik{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-style: italic;
+    color: darkorchid;
+}
+
+.coin-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    border-bottom: 1.5px solid #d7d7d7;
+    align-items: center;
+    height: 80px;
+    width: 900px;
+    border-radius: 2px;
+}
+
+
+.coin {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;
+     } 
+
+
+     .coin h1{
+        font-size: 16px;
+        width: 150px;
+     }
+
+
+     .coin img {
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+     }
+
+     .coin-symbol {
+        text-transform: uppercase;
+      }
+
+     
+
+
+
+
